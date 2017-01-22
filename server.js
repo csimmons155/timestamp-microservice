@@ -1,6 +1,7 @@
 var express = require("express");
 //in c9 always use port: 8080
-var app = express()
+var express = require("express");
+var app = express();
 
 app.get('/', function (req, res) {
   res.send('Hello World!')
